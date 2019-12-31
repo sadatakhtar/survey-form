@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Survey form</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
 
   </head>
   <body>
+    <div id="container">
+      <header>
+        <nav>
+          <h1>Survey Form</h1>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+
+        </nav>
+
+      </header>
+      <div id="subheading"><h2>Form Details</h2></div>
+      <div id="form">
+        <form>
+        <label>
+          <input type="text" name="name" placeholder="Name" >
+        </label>
+        <br/>
+        <label>
+          <input type="email" name="email" placeholder="E-mail" required >
+        </label>
+        <br/>
+        <label>
+          <input type="number" name="age" placeholder="Age" min="16" >
+        </label>
+        <br/>
+        <button type="submit" name="submit">Get Started</button>
+      </form>
+      </div>
+      <div>
+        <footer>
+          <h4>&copy; Copyright 2019. Survey-form by Sadat Akhtar &reg;</h4>
+        </footer>
+      </div>
 
 
-
+    </div>
   </body>
 </html>
