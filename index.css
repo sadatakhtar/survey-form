@@ -19,12 +19,12 @@ ul{
 
 }
 
-footer{
-  background-color: black;
+
+#footer{
   color: white;
-  display: flex;
-  justify-content: center;
-  border: 1px dotted gold;
+  background-color: black;
+ text-align: center;
+ border: 1px dotted gold;
 }
 li{
   display: flex;
@@ -34,24 +34,46 @@ li{
 h1{
   font-size: 50px;
 }
+#dropdown{
+  width: 170px;
+  border-radius: 20px;
+}
+#lingo {
+  width: 170px;
+  border-radius: 20px;
+}
 button {
   width: 170px;
   height: 30px;
   border-radius: 30px;
   font-size: 19px;
 }
+#radio{
+  font-size: smaller;
+  align-items: center;
+}
+
 button:hover{
   background-color: darkgray;
 
 }
+#comments{
+  height: 150px;
+}
+textarea {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  height: 150px;
+}
 #subheading {
-  background-color: #d2cfd5;
+  background-color: skyblue;
   display: flex;
   justify-content: center;
 }
 #form {
-  background-image: linear-gradient(#d2cfd5, gold, black);
-  height: 500px;
+  background-image: linear-gradient(skyblue, #d2cfd5, gold, black);
+  height: 700px;
   display: flex;
   justify-content: center;
 
@@ -67,4 +89,12 @@ a:hover {
 }
 a {
   color: white;
+}
+#icons {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: red;
+}
+#icons:hover {
+  background-color: black;
 }

@@ -13,13 +13,13 @@
           <ul>
             <li><a href="#"><span id="gold">H</span>ome</a></li>
             <li><a href="#"><span id="gold">A</span>bout</a></li>
-            <li><a href="#"><span id="gold">C</span>ontact</a></li>
+            <li><a href="#footer"><span id="gold">C</span>ontact</a></li>
           </ul>
 
         </nav>
 
       </header>
-      <div id="subheading"><h2>Form Details</h2></div>
+      <div id="subheading"><h2>General Details</h2></div>
       <div id="form">
         <form>
         <label>
@@ -34,12 +34,59 @@
           <input  type="number" name="age" placeholder="Age" min="16" >
         </label>
         <br/>
+
+           <label id="radio" for="radio">Gender:
+             <input  type="radio" name="radio">Male</input>
+             <input type="radio" name="radio">Female</input>
+          </label>
+          <br/>
+           <br/>
+           <label id="dropdown">Current Role :</label><br/>
+            <select id="dropdown">
+                <option value="student">Student</option>
+                <option value="ftime">Full time employment</option>
+                <option value="ptime">Part-time employment</option>
+                <option value="ptstudent">Part-time student</option>
+                <option value="other">Other</option>
+              </select><br/>
+        <br/>
+        <label id="radio" for="radio">Status :
+          <input type="radio" value="1" name="radio">Single
+          <input type="radio" value="2" name="radio">Married
+        </label>
+        <br/>
+          <br>
+          <label id="lingo">Programming Language:<br/>
+            <select id="lingo">
+              <option>JavaScript</option>
+              <option>Html</option>
+              <option>Python</option>
+              <option>Perl</option>
+              <option>CSS</option>
+            </select>
+          </label>
+          <br/>
+          <br/>
+          <label>Additional comments:
+        <textarea  placeholder="Additional Comments">
+      </textarea>
+    </label>
+          <br/>
+          <br/>
         <button type="submit" name="submit">Get Started</button>
       </form>
       </div>
+
       <div>
-        <footer>
-          <h4>&copy; Copyright 2019. Survey-form by <span id="gold">Sadat Akhtar</span> &reg;</h4>
+        <footer id="footer">
+<p id="footerp">
+            <a id="icons" href="https://www.linkedin.com/in/sadat-akhtar-396189a7/" target="_blank"><img src="linkedincolored.svg" alt="linkedin" width="50px" height="50px"></a>
+            <a id="icons" href="https://twitter.com/SadatAkhtar" target="_blank"><img src="twitterblue.svg" alt="linkedin" width="50px" height="50px"></a>
+            <a id="icons" href="https://github.com/sadatakhtar" target="_blank"><img src="githubcolored.svg" alt="linkedin" width="50px" height="50px"></a>
+            <a id="icons" href="#"><img src="gmailcolored.svg" alt="linkedin" width="50px" height="50px"></a>
+            <h4>&copy; Copyright 2019. Survey-form by <span id="gold">Sadat Akhtar</span> &reg;</h4>
+
+</p>
         </footer>
       </div>
 
