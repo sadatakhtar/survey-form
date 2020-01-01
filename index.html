@@ -9,6 +9,7 @@
     <div id="container">
       <header>
         <nav>
+          <img id="logo" src="scroll.svg" alt="pen" width="80px" height="120px">
           <h1><span id="gold">S</span>urvey <span id="gold">F</span>orm</h1>
           <ul>
             <li><a href="#"><span id="gold">H</span>ome</a></li>
@@ -21,23 +22,23 @@
       </header>
       <div id="subheading"><h2>General Details</h2></div>
       <div id="form">
-        <form>
-        <label>
-          <input type="text" name="name" placeholder="Name" >
+        <form id="survey-form">
+        <label id="name-label">Name:
+          <input id="name" type="text" name="name" placeholder="Name" required >
         </label>
         <br/>
-        <label>
-          <input type="email" name="email" placeholder="E-mail" required >
+        <label id="email-label">Email:
+          <input id="email" type="email" name="email" placeholder="E-mail" required >
         </label>
         <br/>
-        <label>
-          <input  type="number" name="age" placeholder="Age" min="16" >
+        <label id="number-label">Age:
+          <input  id="number" type="number" name="age" placeholder="Age" min="16" max="65">
         </label>
         <br/>
 
            <label id="radio" for="radio">Gender:
-             <input  type="radio" name="radio">Male</input>
-             <input type="radio" name="radio">Female</input>
+             <input  type="radio" name="radio" value="male">Male</input>
+             <input type="radio" name="radio" value="female">Female</input>
           </label>
           <br/>
            <br/>
@@ -70,11 +71,22 @@
           <label>Additional comments:
         <textarea  placeholder="Additional Comments">
       </textarea>
+            <br/>
+            <label>Do you want to continue:
+              <input type="checkbox" value="yes">Yes</input>
+            <label>
+            <input type="checkbox" value="no">No</input>
+      </label>
+            </label>
     </label>
           <br/>
           <br/>
-        <button type="submit" name="submit">Get Started</button>
+        <button  id="submit" type="submit" name="submit">Get Started</button>
       </form>
+
+
+
+      
       </div>
 
       <div>

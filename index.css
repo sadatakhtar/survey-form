@@ -18,6 +18,9 @@ ul{
 
 
 }
+#logo{
+  padding-right: 0px;
+}
 
 
 #footer{
@@ -73,7 +76,7 @@ textarea {
 }
 #form {
   background-image: linear-gradient(skyblue, #d2cfd5, gold, black);
-  height: 700px;
+  height: 900px;
   display: flex;
   justify-content: center;
 
