@@ -3,7 +3,10 @@ nav {
   color: white;
   display: flex;
   justify-content: space-around;
-  border: 1px solid gold;
+  border: 2px solid gold;
+}
+#gold {
+  color: gold;
 }
 ul{
   margin: 0px;
@@ -15,11 +18,13 @@ ul{
 
 
 }
+
 footer{
   background-color: black;
   color: white;
   display: flex;
   justify-content: center;
+  border: 1px dotted gold;
 }
 li{
   display: flex;
@@ -40,12 +45,12 @@ button:hover{
 
 }
 #subheading {
-  background-color: blue;
+  background-color: #d2cfd5;
   display: flex;
   justify-content: center;
 }
 #form {
-  background-color: blue;
+  background-image: linear-gradient(#d2cfd5, gold, black);
   height: 500px;
   display: flex;
   justify-content: center;
@@ -56,4 +61,10 @@ input {
   text-align: center;
   display: flex;
   width: 170px;
+}
+a:hover {
+  background-color: gray;
+}
+a {
+  color: white;
 }
